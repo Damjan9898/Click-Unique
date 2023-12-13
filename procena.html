@@ -1,0 +1,493 @@
+<head>
+	<title>Click Unique | Project evaluation</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<meta name="google" content="notranslate">
+	<script src="https://kit.fontawesome.com/4fc7bbcd63.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<script>
+		$(document).ready(function(){
+		$("#form-srp").submit(function(event){
+			event.preventDefault();
+			var name = $("#ImePrez").val();
+			var email = $("#Mail").val();
+			var message = $("#Poruka").val();
+			var submit = $("#submit").val();
+			$(".form-message").load("contactform1.php", {
+				name: name,
+				email: email,
+				message: message,
+				submit: submit
+			});
+
+		});
+		$("#form-eng").submit(function(event){
+			event.preventDefault();
+			var name = $("#ImePrezeng").val();
+			var email = $("#Maileng").val();
+			var message = $("#Porukaeng").val();
+			var submit = $("#submiteng").val();
+			$(".form-messageeng").load("contactform2.php", {
+				name: name,
+				email: email,
+				message: message,
+				submit: submit
+			});
+
+		});
+
+
+	$("#form-srpp").submit(function(event){
+		event.preventDefault();
+		var radio = $("input[type='radio']:checked").val();
+		var message = $("#Porukap").val();
+		var budget = $("#Budzetp").val();
+		var name = $("#ImePrezp").val();
+		var email = $("#Mailp").val();
+		var phone = $("#Telefonp").val();
+		var submit = $("#submitp").val();
+		$(".form-messagesrpp").load("contactform3.php", {
+		    radio: radio,
+			message: message,
+			budget: budget,
+			name: name,
+			email: email,
+			phone: phone,
+			submit: submit
+		});
+
+	});
+
+	$("#form-engp").submit(function(event){
+		event.preventDefault();
+		var radio = $("input[type='radio']:checked").val();
+		var message = $("#Porukape").val();
+		var budget = $("#Budzetpe").val();
+		var name = $("#ImePrezpe").val();
+		var email = $("#Mailpe").val();
+		var phone = $("#Telefonpe").val();
+		var submit = $("#submitpe").val();
+		$(".form-messageengp").load("contactform4.php", {
+		    radio: radio,
+			message: message,
+			budget: budget,
+			name: name,
+			email: email,
+			phone: phone,
+			submit: submit
+		});
+
+	});
+});
+	</script>
+</head>
+<body>
+	<header>
+		<a href="index.html"><article class="logo">
+			<img src="img/logos1.png" alt="logo slika" class="white-logo"/>
+			<img src="img/logos2.png" alt="druga logo slika" class="black-logo"/>
+		</article></a>
+		<section class="meni-desno">
+			<article class="dark-mode noSelect">
+				<label class="switch">
+					<input type="checkbox" onclick="sunset()" class="check noSelect">
+					<span class="slider round">
+					<p class="sunce-okvir">
+						<span class="fas fa-sun sunce sun1"></span>
+						<span class="fas fa-moon sunce"></span>
+					</p>
+					</span>
+				</label>
+			</article>
+			<nav>
+				<ul>
+					<li><a href="index.html" class="nava srp noSelect">Početna</a>
+					<a href="index.html" class="nava eng noSelect">Home</a></li>
+
+					<li><a href="usluge.html" class="nava srp noSelect">Usluge</a>
+					<a href="usluge.html" class="nava eng noSelect">Services</a></li>
+
+					<li><a href="projekti.html" class="nava srp noSelect">Projekti</a>
+					<a href="projekti.html" class="nava eng noSelect">Projects</a></li>
+
+					<li><a href="kontakt.html" class="nava srp noSelect">Kontakt</a>
+					<a href="kontakt.html" class="nava eng noSelect">Contact</a></li>
+				</ul>
+			</nav>
+			<article class="language">
+				<p><span class="srjez jezici noSelect" onclick="srpski()">Srp</span> | <span class="enjez jezici noSelect" onclick="english()">Eng</span></p>
+			</article>
+			<div class="linkovi-x noSelect">
+				<a href="javascript:void(0);" class="icon noSelect" onclick="openNav();">
+				<div class="nav-icon3 noSelect">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div></a>
+			</div>
+		</section>
+	</header>
+	<header class="drugi-header">
+		<a href="index.html"><article class="logo">
+			<img src="img/logos1.png" alt="logo slika" class="white-logo"/>
+			<img src="img/logos2.png" alt="druga logo slika" class="black-logo"/>
+		</article></a>
+		<section class="meni-desno">
+			<article class="dark-mode noSelect">
+				<label class="switch noSelect">
+					<input type="checkbox" onclick="sunset()" class="check noSelect">
+					<span class="slider round">
+					<p class="sunce-okvir">
+						<span class="fas fa-sun sunce sun1"></span>
+						<span class="fas fa-moon sunce"></span>
+					</p>
+					</span>
+				</label>
+			</article>
+			<nav>
+				<ul>
+					<li><a href="index.html" class="nava srp noSelect">Početna</a>
+					<a href="index.html" class="nava eng noSelect">Home</a></li>
+
+					<li><a href="usluge.html" class="nava srp noSelect">Usluge</a>
+					<a href="usluge.html" class="nava eng noSelect">Services</a></li>
+
+					<li><a href="projekti.html" class="nava srp noSelect">Projekti</a>
+					<a href="projekti.html" class="nava eng noSelect">Projects</a></li>
+
+					<li><a href="kontakt.html" class="nava srp noSelect">Kontakt</a>
+					<a href="kontakt.html" class="nava eng noSelect">Contact</a></li>
+				</ul>
+			</nav>
+			<article class="language">
+				<p><span class="srjez jezici noSelect" onclick="srpski()">Srp</span> | <span class="enjez jezici noSelect" onclick="english()">Eng</span></p>
+			</article>
+			<div class="linkovi-x noSelect">
+				<a href="javascript:void(0);" class="icon noSelect" onclick="openNav();">
+				<div class="nav-icon3">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div></a>
+			</div>
+		</section>
+	</header>
+	<div id="myLinks">
+			<div id="hamburgerDrop">
+				<ul>
+					<li><a href="index.html" class="nava srp noSelect">Početna</a>
+					<a href="index.html" class="nava eng noSelect">Home</a></li>
+
+					<li><a href="usluge.html" class="nava srp noSelect">Usluge</a>
+					<a href="usluge.html" class="nava eng noSelect">Services</a></li>
+
+					<li><a href="projekti.html" class="nava srp noSelect">Projekti</a>
+					<a href="projekti.html" class="nava eng noSelect">Projects</a></li>
+
+					<li><a href="kontakt.html" class="nava srp noSelect">Kontakt</a>
+					<a href="kontakt.html" class="nava eng noSelect">Contact</a></li>
+				</ul>
+				<article class="language noSelect" id="lang-link">
+					<p><span class="srjez jezici noSelect" onclick="srpski()">Srp</span> | <span class="enjez jezici" onclick="english()">Eng</span></p>
+				</article>
+			</div>
+	</div>
+
+	<form class="srp" action="contactform3.php" method="POST" id="form-srpp">
+
+	<section class="usluge-procena">
+
+			<p class="svako-pitanje noSelect">Izaberite način na koji možemo da Vam pomognemo*</p>
+			<section class="procena-ispod noSelect">
+				<article class="procena-blok noSelect">
+					<article class="procena-circle noSelect">
+						<span class="fas fa-code noSelect"></span>
+					</article>
+					<p class="proctext">Izrada website-a</p>
+					<label class="container">
+					  <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Website"/>
+					  <span class="checkmark noSelect"></span>
+					</label>
+				</article>
+				<article class="procena-blok noSelect">
+					<article class="procena-circle noSelect">
+						<span class="fas fa-shopping-cart noSelect"></span>
+					</article>
+					<p class="proctext">Online prodavnica</p>
+					<label class="container">
+					  <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Online prodavnica"/>
+					  <span class="checkmark"></span>
+					</label>
+				</article>
+				<article class="procena-blok noSelect">
+					<article class="procena-circle noSelect">
+					<span class="fab fa-android noSelect"></span>
+					</article>
+					<p class="proctext">Kreiranje aplikacije</p>
+					<label class="container">
+					  <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Aplikacija"/>
+					  <span class="checkmark"></span>
+					</label>
+				</article>
+				<article class="procena-blok noSelect">
+					<article class="procena-circle noSelect">
+						<span class="fas fa-network-wired noSelect"></span>
+					</article>
+					<p class="proctext">Internet marketing</p>
+					<label class="container">
+					  <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Internet marketing"/>
+					  <span class="checkmark"></span>
+					</label>
+				</article>
+			</section>
+		</section>
+		<section class="sekcija-opis">
+			<p class="svako-pitanje">Napišite kratak opis o projektu koji Vam je potreban*</p>
+			<article class="article-area">
+					<textarea class="tekst-areas fut-inpp areasm" placeholder="Unesite sadržaj ovde..." id="Porukap" name="message"></textarea>
+			</article>
+		</section>
+
+		<section class="sekcija-budzet">
+			<p class="svako-pitanje">Unesite svoj isplanirani budzet</p>
+			<article class="article-input">
+			<input type="text" placeholder="Vaš budžet ( &#8364; )" id="Budzetp" class="inputi fut-inpp" name="budget"/>
+			</article>
+		</section>
+
+		<section class="sekcija-privatni">
+			<p class="svako-pitanje">Unesite svoje privatne podatke radi daljeg kontakta*</p>
+			<article class="article-input">
+			<input type="text" placeholder="Ime i prezime" id="ImePrezp" class="inputi fut-inpp" name="name"/>
+			</article>
+			<article class="article-input">
+			<input type="email" placeholder="Email adresa" id="Mailp" class="inputi fut-inpp" name="email"/>
+			</article>
+			<article class="article-input">
+			<input type="phone" placeholder="Telefon" id="Telefonp" class="inputi fut-inpp" name="phone"/>
+			</article>
+		</section>
+
+		<section class="prihvatanje-procedure">
+			<article class="info-procedura">
+				<p>Popunjavanjem ove forme dobićete okvirnu procenu projekta koji tražite. Naš odgovor možete očekivati u roku od 24h. Svi podaci koje ste uneli ostaju privatni i zaštićeni. </p>
+			</article>
+			<article class="dugme-procene">
+				<button type="submit" id="submitp" name="submit" class="noSelect">Pošalji</button>
+			</article>
+			<p class="form-messagesrpp"></p>
+		</section>
+
+		</form>
+
+
+
+
+
+
+
+
+		<form class="eng" action="contactform4.php" method="POST" id="form-engp">
+
+			<section class="usluge-procena">
+				<p class="svako-pitanje">How can we help you? *</p>
+				<section class="procena-ispod noSelect">
+					<article class="procena-blok noSelect">
+						<article class="procena-circle noSelect">
+							<span class="fas fa-code"></span>
+						</article>
+						<p class="proctext">Website design</p>
+						<label class="container">
+						 <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Website"/>
+							<span class="checkmark"></span>
+						</label>
+					</article>
+					<article class="procena-blok noSelect">
+						<article class="procena-circle noSelect">
+							<span class="fas fa-shopping-cart noSelect"></span>
+						</article>
+						<p class="proctext">Online shop</p>
+						<label class="container">
+						 <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Online shop"/>
+							<span class="checkmark"></span>
+						</label>
+					</article>
+					<article class="procena-blok noSelect">
+						<article class="procena-circle noSelect">
+						<span class="fab fa-android"></span>
+						</article>
+						<p class="proctext">Application dev.</p>
+						<label class="container">
+							 <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Application"/>
+							<span class="checkmark"></span>
+						</label>
+					</article>
+					<article class="procena-blok noSelect">
+						<article class="procena-circle noSelect">
+							<span class="fas fa-network-wired noSelect"></span>
+						</article>
+						<p class="proctext">Internet marketing</p>
+						<label class="container">
+						 <input type="radio" name="radio" class="klasa-check noSelect" onclick="proveraa()" value="Internet marketing"/>
+							<span class="checkmark"></span>
+						</label>
+					</article>
+				</section>
+			</section>
+			<section class="sekcija-opis">
+				<p class="svako-pitanje">Write a short description about the project you are looking for *</p>
+				<article class="article-area">
+						<textarea class="tekst-areas fut-inpp" placeholder="Your content..." id="Porukape" name="message"></textarea>
+				</article>
+			</section>
+
+			<section class="sekcija-budzet">
+				<p class="svako-pitanje">Enter your planned budget</p>
+				<article class="article-input">
+				<input type="text" placeholder="Your budget ( &#8364; )" id="Budzetpe" class="inputi fut-inpp" name="budget"/>
+				</article>
+			</section>
+
+			<section class="sekcija-privatni">
+				<p class="svako-pitanje">Enter your private information for further contact *</p>
+				<article class="article-input">
+				<input type="text" placeholder="Forename and Surname" id="ImePrezpe" class="inputi fut-inpp"/>
+				</article>
+				<article class="article-input">
+				<input type="email" placeholder="Email" id="Mailpe" class="inputi fut-inpp"/>
+				</article>
+				<article class="article-input">
+				<input type="phone" placeholder="Phone" id="Telefonpe" class="inputi fut-inpp"/>
+				</article>
+			</section>
+
+			<section class="prihvatanje-procedure">
+				<article class="info-procedura">
+					<p>By filling out this form you will get a rough estimate of the project you are looking for. You can expect our response within 24 hours. All data you enter remains private and protected. </p>
+				</article>
+				<article class="dugme-procene">
+					<button type="submit" id="submitpe" name="submit" class="noSelect">Send</button>
+				</article>
+				<p class="form-messageengp"></p>
+			</section>
+
+			</form>
+
+		<footer id="futer" class="procena-fut">
+			<section class="footer-div">
+				<article class="logo logof">
+					<img src="img/logos1.png" alt="logo slika" class="white-logo"/>
+					<img src="img/logos2.png" alt="druga logo slika" class="black-logo"/>
+				</article>
+				<article class="ispod-logoa">
+					<p class="srp">Podizanje online prisustva postaje sve više obavezno u današnje vreme. Posedovanjem kvalitetnog website-a ne samo da ste prisutni na internetu, već imate priliku da se svima predstavite na unikatan način.</p>
+					<p class="eng">Building an online presence is becoming more and more mandatory nowadays. By having a quality website, you are not only visible on the Internet, but you have the opportunity to present yourself to everyone in a unique way.</p>
+					<p class="fot-tel fot-txt srp"><span>Telefon: </span>064/933-4821</p>
+					<p class="fot-tel fot-txt eng"><span>Phone: </span>064/933-4821</p>
+					<p class="fot-txt "><span>Email: </span>clickuniq&commat;gmail.com</p>
+				</article>
+				<article id="socijalne">
+					<a href="https://www.facebook.com/Tvoj-Programer-102557031584354" class="noSelect"><span class="fab fa-facebook noSelect"></span></a>
+					<a href="https://www.instagram.com/tvoj_programer/" class="noSelect"><span class="fab fa-instagram noSelect"></span></a>
+					<a href="https://wa.me/+381645251724" class="noSelect"><span class="fab fa-whatsapp noSelect"></span></a>
+				</article>
+			</section>
+			<section class="footer-div fut-nav">
+				<article class="footer-naslov srp">Stranice</article>
+				<article class="footer-naslov eng">Pages</article>
+				<article class="stranice">
+					<ul>
+						<li>
+							<a href="index.html" class="stranicea srp">Početna</a>
+							<a href="#" class="stranicea eng">Home page</a>
+						</li>
+						<li>
+							<a href="usluge.html" class="stranicea srp">Usluge</a>
+							<a href="usluge.html" class="stranicea eng">Services</a>
+						</li>
+						<li>
+							<a href="procena.html" class="stranicea srp">Procena projekta</a>
+							<a href="procena.html" class="stranicea eng">Project evaluation</a>
+						</li>
+						<li>
+
+							<a href="projekti.html" class="stranicea srp">Projekti</a>
+							<a href="projekti.html" class="stranicea eng">Projects</a>
+						</li>
+						<li>
+							<a href="kontakt.html" class="stranicea srp">Kontakt</a>
+							<a href="kontakt.html" class="stranicea eng">Contact</a>
+						</li>
+					</ul>
+				</article>
+			</section>
+			<section class="footer-sec">
+				<article class="footer-naslov srp">Kontakt</article>
+				<article class="footer-naslov eng">Contact</article>
+				<form class="srp" action="contactform1.php" method="POST" id="form-srp">
+					<table id="footer-table">
+						<tbody>
+							<tr>
+								<td>
+									<input type="text" placeholder="Ime i Prezime" class="fut-inp" id="ImePrez" name="name"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="email" placeholder="Email" class="fut-inp" id="Mail" name="email"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<textarea placeholder="Vaša poruka" class="fut-inp" id="Poruka" name="message"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<button type="submit" class="footer-dugme" id="submit" name="submit">Pošalji</button>
+									<p class="form-message"></p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+				<form class="eng" action="contactform2.php"  method="POST" id="form-eng">
+					<table id="footer-table">
+						<tbody>
+							<tr>
+								<td>
+									<input type="text" placeholder="Forename and Surname" class="fut-inp" id="ImePrezeng" name="name"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="email" placeholder="Email" class="fut-inp" id="Maileng" name="email"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<textarea placeholder="Your message" class="fut-inp" id="Porukaeng" name="message"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<button type="submit" class="footer-dugme" id="submiteng" name="submit" >Send</button>
+									<p class="form-messageeng"></p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</section>
+
+		</footer>
+		<script type="text/javascript" src="js/main3.js"></script>
+	</body>
+</html>
