@@ -1,0 +1,1429 @@
+
+@media screen and (min-width:1050px){
+	#myLinks{
+		display:none;
+	}
+}
+@media screen and (max-width:1430px){
+	.nama-text{
+		width:500px;
+	}
+}
+@media screen and (max-width:1420px){
+	.pored-laptop{
+		width:450px;
+		height:500px;
+	}
+	.pored-laptop h1{
+		font-size:36px;
+	}
+	.pored-laptop p{
+		font-size:18px;
+		margin-top:30px;
+		width:80%;
+	}
+}
+@media screen and (max-width:1375px){
+	#tekst-usluga1, #tekst-usluga3{
+		right:50px;
+	}
+	#tekst-usluga2, #tekst-usluga4{
+		left:50px;
+	}
+}
+@media screen and (max-width:1310px){
+	#laptop-selektor{
+		width:100%;
+		display:flex;
+		justify-content:space-around;
+		margin-top:150px;
+		flex-direction: column-reverse;
+			margin-left:0px;
+	}
+	.pored-laptop{
+		width:900px;
+		height:400px;
+	}
+	.pored-laptop h1{
+		font-size:40px;
+		color:gray;
+	}
+	.pored-laptop p{
+		font-size:20px;
+		margin-top:30px;
+		width:90%;
+	}
+}
+@media screen and (max-width:1320px){
+	#O-nama{
+		flex-direction:column;
+		height:1200px;
+		margin-top:0px;
+		margin-bottom:50px;
+	}
+	#namaslike{
+		margin:auto;
+		width:700px;
+	}
+	#nama-slika2{
+		top:250px;
+		left:220px;
+	}
+	.nama-text{
+		width:670px;
+		margin-left:30px;
+	}
+}
+@media screen and (max-width:1280px){
+	footer{
+		height:950px;
+	}
+	.footer-sec{
+		width:750px;
+	}
+	#footer-table textarea{
+		max-width:750px;
+	}
+	.slika-ugluga{
+		height:430px;
+	}
+	.sekc-usluga{
+		height:430px;
+	}
+}
+@media screen and (max-width:1250px){
+	#main-naslov{
+		width:500px;
+	}
+}
+
+
+@media screen and (max-width:1200px){
+.procena-blok{
+	width:184px;
+	height:184px;
+	border-radius:8px;
+	box-shadow:4px 4px 16px #e2e2e2;
+}
+.usluge-procena{
+	height:450px;
+	margin-top:80px;
+}
+.procena-blok p{
+	margin-top:16px;
+	font-size:15px;
+}
+.procena-circle{
+	width:96px;
+	height:70px;
+	border-radius:72px;
+	padding-top:26px;
+	font-size:36px;
+	border:2.5px solid gray;
+	margin-top:16px;
+}
+
+.procena-box{
+	top:8px;
+	right:32px;
+}
+
+.container {
+  font-size: 17.6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width:184px;
+  height:184px;
+}
+.checkmark {
+  top: 12px;
+  left: 156px;
+  width:16px;
+  height:16px;
+  border-radius:2.4px;
+}
+
+.container .checkmark:after {
+  left: 4.8px;
+  top: 2.4px;
+  width: 4px;
+  height: 8px;
+  border-width: 0 2.4px 2.4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+	}
+}
+
+
+
+@media screen and (max-width:1175px){
+	#tekst-usluga1, #tekst-usluga3, #tekst-usluga2, #tekst-usluga4{
+		width:350px;
+		height:420px;
+	}
+}
+@media screen and (max-width:1160px){
+	#pozadinska-sekcijaa{
+		width:90%;
+		height:1190px;
+		margin-top:100px;
+		display:flex;
+		justify-content:space-between;
+		flex-direction: column;
+	}
+	.poredforme-tekst{
+		width:800px;
+		height:450px;
+	}
+	#forma-kontakt{
+		width:800px;
+		height:750px;
+	}
+}
+@media screen and (max-width:1150px){
+	#main-naslov{
+		width:400px;
+	}
+	.naslov-text{
+		font-size:40px;
+	}
+	.info-procedura{
+		width:700px;
+		height:80px;
+		font-size:18px;
+	}
+	#lista-sajtova{
+		width:90%;
+	}
+	#telefon-selektor{
+		width:90%;
+	}
+}
+@media screen and (max-width:1120px){
+	#usluge-index{
+		height:500px;
+	}
+	#usluge-sekcija{
+		width:880px;
+		height:320px;
+		margin-top:60px;
+		display:flex;
+	}
+	.usluge-blok{
+		width:160px;
+		height:272px;
+		padding:8px;
+		box-shadow:4px 4px 8px #c2c2c2;
+	}
+	.usluge-circle{
+		width:96px;
+		height:70px;
+		border-radius:72px;
+		padding-top:26px;
+		font-size:36px;
+		border:2px solid #ff7e38;
+	}
+	.usluge-txt{
+		width:160px;
+		height:160px;
+	}
+	.usluge-txt h2{
+		margin-top:16px;
+		font-size:15px;
+	}
+	.usluge-txt p{
+		padding-top:16px;
+		font-size:13px;
+	}
+
+}
+@media screen and (max-width:1070px){
+	#telefon-selektor{
+		flex-direction: column;
+	}
+	.pored-telefon{
+		width:100%;
+		height:230px;
+	}
+	#telefon-screen{
+		margin-left:0px;
+	}
+}
+@media screen and (max-width:1050px){
+	.meni-desno nav, .language{
+		display:none;
+	}
+	.nav-icon3{
+		display:block;
+	}
+	.meni-desno{
+		width:90px;
+		margin-right:20px;
+	}
+	.logo{
+		width:215px;
+		height:68px;
+		margin-left:20px;
+	}
+	.logo img{
+		height:68px;
+	}
+	.logof{
+		width:260px;
+		height:70px;
+	}
+	.logof img{
+		height:80px;
+		top:-2px;
+	}
+	#slider-slika{
+		display:none;
+	}
+	#main-gore{
+		display:block;
+	}
+	#main-naslov{
+		width:700px;
+		margin-left:50px;
+		margin-top:200px;
+		height:400px;
+	}
+	#lang-link{
+		display:block;
+	}
+
+
+	.window{
+	  height:320px;
+	}
+	.container1{
+		width:2080px;
+		height:320px;
+	}
+	.slide{
+		width:360px;
+		height:320px;
+	}
+	.sld{
+		width:360px;
+		height:240px;
+		background-size:360px 240px;
+	}
+	.sld:hover{
+		transform: scale(1);
+	}
+	.poseti{
+		width:360px;
+		height:240px;
+		background-color:rgba(0,0,0,0.4);
+		color:rgba(255,255,0,0.7);
+	}
+	.dugme-poseti{
+		height:48px;
+		width:48px;
+		font-size:26px;
+		border-radius:24px;
+		color:orange;
+		visibility:visible!important;
+	}
+	.pomeranje-poseti{
+		position:relative;
+		top:100px;
+		left:152px;
+	}
+	.slide-txt{
+		height:80px;
+	}
+	.sld-titl{
+		margin-top:8px;
+		margin-left:4px;
+		font-size:16px;
+	}
+	.sld-txt{
+		margin-top:4px;
+		margin-left:4px;
+		font-size:14px;
+	}
+	.buttons{
+	  width: 160px;
+
+	}
+	.levo-dug, .desno-dug{
+		width:48px;
+		height:48px;
+		border-radius:24px;
+		bottom:176px;
+		font-size:16px;
+	}
+	.levo-dug{
+		left:16px;
+	}
+	.desno-dug{
+		right:16px;
+	}
+}
+@media screen and (max-width:1020px){
+	.sekc-usluga{
+		height:800px;
+		display:flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.sekc-obrnuto{
+			flex-direction: column-reverse;
+	}
+	.slika-ugluga{
+		width:100%;
+		height:500px;
+	}
+	.prvaa-sekc{
+		margin-top:20px;
+	}
+	#tekst-usluga1, #tekst-usluga3, #tekst-usluga2, #tekst-usluga4{
+		width:90%;
+		height:250px;
+		position:relative;
+		right:0px;
+		left:0px;
+	}
+}
+@media screen and (max-width:950px){
+	.pored-laptop{
+		width:90%;
+	}
+}
+@media screen and (max-width:950px){
+	#lista-sajtova{
+		height:144px;
+	}
+	.dugme-preview{
+		width:144px;
+		height:144px;
+		box-shadow:4px 4px 12px #c2c2c2;
+		border-radius:4px;
+		border:1.4px solid white;
+	}
+	.dugme-preview img{
+		border-radius:4px;
+	}
+	.sajt-izaberi{
+		width:144px;
+		height:144px;
+		font-size:24px;
+		border-radius:4px;
+	}
+}
+@media screen and (max-width:930px){
+	.info-procedura{
+		width:500px;
+		height:70px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width:930px){
+	.procena-ispod{
+		width:600px;
+		flex-wrap: wrap;
+	}
+	.usluge-procena{
+		height:750px;
+	}
+	.procena-blok{
+		width:230px;
+		height:230px;
+		border-radius:10px;
+		box-shadow:5px 5px 20px #e2e2e2;
+		margin-top:20px;
+	}
+
+	.procena-blok p{
+		margin-top:20px;
+		font-size:19px;
+	}
+	.procena-circle{
+		width:120px;
+		height:87px;
+		border-radius:90px;
+		padding-top:33px;
+		font-size:45px;
+		border:3px solid gray;
+		margin-top:20px;
+	}
+
+	.procena-box{
+		top:10px;
+		right:40px;
+	}
+
+	.container {
+	  font-size: 22px;
+	  width:230px;
+	  height:230px;
+	}
+
+	.checkmark {
+	  top: 15px;
+	  left: 195px;
+	  width:20px;
+	  height:20px;
+	  border-radius:3px;
+	}
+
+	.container .checkmark:after {
+	  left: 6px;
+	  top: 3px;
+	  width: 5px;
+	  height: 10px;
+	  border-width: 0 3px 3px 0;
+	}
+}
+
+
+@media screen and (max-width:900px){
+	#usluge-index{
+		height:1000px;
+	}
+	#usluge-sekcija{
+		width:520px;
+		height:800px;
+		margin-top:60px;
+		display:flex;
+	}
+	.sekcija-budzet{
+		margin-top:70px;
+	}
+	.sekcija-privatni, .prihvatanje-procedure{
+		margin-top:40px;
+	}
+	.prihvatanje-procedure{
+		height:150px;
+	}
+	.usluge-blok{
+		width:200px;
+		height:340px;
+		box-shadow:5px 5px 10px #c2c2c2;
+		padding:10px;
+		margin-top:20px;
+	}
+	.usluge-circle{
+		width:120px;
+		height:87px;
+		margin:auto;
+		border-radius:90px;
+		padding-top:33px;
+		font-size:45px;
+		border:3px solid #ff7e38;
+	}
+	.usluge-txt{
+		width:200px;
+		height:200px;
+	}
+	.usluge-txt h2{
+		margin-top:20px;
+		font-size:19px;
+	}
+	.usluge-txt p{
+		padding-top:20px;
+		font-size:16px;
+	}
+
+
+	.svako-pitanje{
+		font-size:20px;
+		margin-left:50px;
+		margin-bottom:50px;
+	}
+	#project-title{
+		width:90%;
+		height:200px;
+	}
+	#project-title h1{
+			font-size:35px;
+	}
+	#project-title p{
+		font-size:18px;
+		margin-top:17px;
+	}
+
+}
+@media screen and (max-width:895px){
+	#pozadinska-sekcijaa{
+		height:1100px;
+	}
+	.poredforme-tekst{
+		width:600px;
+		height:350px;
+	}
+	.poredforme-tekst h1{
+		font-size:38px;
+		margin-top:8px;
+	}
+	.poredforme-tekst p{
+		font-size:18px;
+		margin-top:25px;
+	}
+	.dugme-pr{
+		width:160px;
+		height:40px;
+		margin-top:56px;
+	}
+	.dugme-pr button{
+		width:160px;
+		height:40px;
+		font-size:14.4px;
+		border-radius:4px;
+
+	}
+	#forma-kontakt{
+		width:600px;
+		height:680px;
+	}
+	.kontakt-inp, .kontakt-area{
+		font-size:16px;
+	}
+	.kontakt-dugme{
+		width:120px;
+		height:40px;
+		border-radius:4px;
+		margin-top:25px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width:830px){
+	#main-naslov{
+		width:500px;
+	}
+}
+@media screen and (max-width:800px){
+	#laptop-screen{
+		display: none;
+	}
+	#telefon-selektor{
+		flex-direction: column-reverse;
+	}
+	.pored-telefon{
+		height:auto;
+		margin-top:30px;
+	}
+	.pored-laptop, .pored-telefon{
+		text-align: center;
+		margin:auto;
+	}
+	.pored-telefon{
+		margin-top:60px;
+	}
+	.pored-laptop p, .pored-telefon p{
+		width:100%;
+	}
+}
+@media screen and (max-width:770px){
+	.window{
+	  height:272px;
+	}
+	.container1{
+		width:1768px;
+		height:272px;
+	}
+	.slide{
+		width:306px;
+		height:272px;
+	}
+	.sld{
+		width:306px;
+		height:204px;
+		background-size:306px 204px;
+	}
+	.poseti{
+		width:306px;
+		height:204px;
+	}
+	.dugme-poseti{
+		height:41px;
+		width:41px;
+		font-size:22px;
+		border-radius:20px;
+	}
+	.pomeranje-poseti{
+		top:85px;
+		left:129px;
+	}
+	.slide-txt{
+		height:68px;
+	}
+	.sld-titl{
+		margin-top:7px;
+		margin-left:3px;
+		font-size:17px;
+	}
+	.sld-txt{
+		margin-top:3px;
+		margin-left:3px;
+		font-size:14px;
+	}
+	.buttons{
+	  width:136px;
+
+	}
+	.levo-dug, .desno-dug{
+		width:45px;
+		height:45px;
+		border-radius:25px;
+		bottom:150px;
+		font-size:14px;
+	}
+	.levo-dug{
+		left:12px;
+	}
+	.desno-dug{
+		right:12px;
+	}
+	footer{
+		flex-direction:column;
+		height:1400px;
+	}
+	.footer-sec{
+		width:90%;
+		margin-left:30px;
+	}
+	#footer-table textarea{
+		max-width:650px;
+	}
+	.footer-div{
+		margin-left:30px;
+	}
+	.logof{
+		margin-left:0px;
+	}
+	.fut-nav{
+		height:300px;
+	}
+	.footer-sec{
+		margin-top:0px;
+		margin-bottom:50px;
+
+	}
+}
+@media screen and (max-width:720px){
+	.nama-text{
+		width:570px;
+	}
+	#namaslike{
+		width:600px;
+	}
+	#nama-slika1{
+		width:360px;
+		height:360px;
+		left:0px;
+	}
+	#nama-slika2{
+		width:280px;
+		height:280px;
+		top:200px;
+		left:200px;
+
+	}
+	.sekc-usluga{
+		height:850px;
+	}
+	.slika-ugluga{
+		height:500px;
+	}
+	#tekst-usluga1, #tekst-usluga3, #tekst-usluga2, #tekst-usluga4{
+		height:300px;
+	}
+}
+@media screen and (max-width:710px){
+	#lista-sajtova{
+		height:430px;
+		width:410px;
+	}
+	.dugme-preview{
+		width:180px;
+		height:180px;
+		box-shadow:5px 5px 15px #c2c2c2;
+		border-radius:5px;
+		border:1.7px solid white;
+	}
+	.dugme-preview img{
+		border-radius:5px;
+	}
+	.sajt-izaberi{
+		width:180px;
+		height:180px;
+		font-size:30px;
+		border-radius:5px;
+	}
+}
+@media screen and (max-width:680px){
+	.pored-laptop{
+		height:auto;
+	}
+	.pored-laptop h1{
+		font-size:35px;
+	}
+	.pored-laptop p{
+		font-size:18px;
+	}
+	.pored-laptop button{
+		font-size:14.4px;
+		margin-top:40px;
+		height:40px;
+		width:152px;
+		border-radius:24px;
+	}
+}
+@media screen and (max-width:670px){
+	#pozadinska-sekcijaa{
+		height:1050px;
+		margin-top:50px;
+	}
+	.poredforme-tekst{
+		width:100%;
+		height:350px;
+	}
+	.poredforme-tekst h1{
+		font-size:30px;
+		margin-top:8px;
+	}
+	.poredforme-tekst p{
+		font-size:16px;
+		margin-top:30px;
+	}
+	.dugme-pr{
+		width:136px;
+		height:34px;
+		margin-top:40px;
+	}
+	.dugme-pr button{
+		width:136px;
+		height:34px;
+		font-size:14px;
+		border-radius:3px;
+
+	}
+	#forma-kontakt{
+		width:100%;
+	}
+	#telefon-screen{
+		width:320px;
+	}
+	#telefon-blok{
+		right:150px;
+	}
+
+	#telefon-screen img{
+		right:-150px;
+	}
+}
+@media screen and (max-width:640px){
+	.procena-ispod{
+		width:420px;
+	}
+	.usluge-procena{
+		height:600px;
+	}
+	.svako-pitanje{
+		font-size:17px;
+		margin-left:40px;
+		margin-bottom:40px;
+	}
+.procena-blok{
+	width:184px;
+	height:184px;
+	border-radius:8px;
+	box-shadow:4px 4px 16px #e2e2e2;
+}
+.procena-blok p{
+	margin-top:16px;
+	font-size:15px;
+}
+.procena-circle{
+	width:96px;
+	height:70px;
+	border-radius:72px;
+	padding-top:26px;
+	font-size:36px;
+	border:2.5px solid gray;
+	margin-top:16px;
+}
+
+.procena-box{
+	top:8px;
+	right:32px;
+}
+
+.container {
+  font-size: 17.6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width:184px;
+  height:184px;
+}
+.checkmark {
+  top: 12px;
+  left: 156px;
+  width:16px;
+  height:16px;
+  border-radius:2.4px;
+}
+
+.container .checkmark:after {
+  left: 4.8px;
+  top: 2.4px;
+  width: 4px;
+  height: 8px;
+  border-width: 0 2.4px 2.4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+	}
+	.inputi, .tekst-areas{
+		font-size:15px;
+	}
+}
+
+@media screen and (max-width:620px){
+	#O-nama{
+		height:1000px;
+	}
+	.nama-text{
+		width:500px;
+	}
+	#namaslike{
+		width:480px;
+	}
+	#nama-slika1{
+		width:270px;
+		height:270px;
+	}
+	#nama-slika2{
+		width:210px;
+		height:210px;
+		top:150px;
+		left:170px;
+	}
+	.slika-ugluga{
+		height:400px;
+	}
+}
+@media screen and (max-width:610px){
+	#main-naslov{
+		width:400px;
+		margin-top:100px;
+	}
+	.naslov-text{
+		font-size:35px;
+	}
+}
+@media screen and (max-width:580px){
+	.levo-dug{
+		left:10px;
+	}
+	.desno-dug{
+		right:10px;
+	}
+}
+@media screen and (max-width:550px){
+	#O-nama{
+		height:900px;
+	}
+	.dugme-procene{
+		width:160px;
+		height:40px;
+		margin-top:35px;
+	}
+	.procena-fut{
+		margin-top:50px;
+	}
+	.dugme-procene button{
+		width:160px;
+		height:40px;
+		font-size:13.6px;
+		border-radius:4px;
+	}
+	.nama-text{
+		width:400px;
+		height:340px;
+	}
+	.nama-text h1{
+		font-size:40px;
+	}
+	.nama-text p{
+		margin-top:20px;
+		font-size:18px;
+	}
+	#namaslike{
+		width:400px;
+	}
+	#nama-slika1{
+		width:225px;
+		height:225px;
+	}
+	#nama-slika2{
+		width:175px;
+		height:175px;
+		top:120px;
+		left:150px;
+	}
+	.info-procedura{
+		width:400px;
+		height:70px;
+		font-size:14px;
+	}
+	#project-title{
+		height:auto;
+		margin-top:50px;
+	}
+	#project-title h1{
+			font-size:30px;
+	}
+	#project-title p{
+		font-size:16px;
+	}
+	#project-title hr{
+		width:30px;
+		height:3px;
+		margin-top:4px;
+	}
+}
+@media screen and (max-width:540px){
+	#usluge-index{
+		height:900px;
+	}
+	#usluge-sekcija{
+		width:420px;
+		height:700px;
+		margin-top:60px;
+		display:flex;
+	}
+	.usluge-blok{
+		width:160px;
+		height:272px;
+		padding:8px;
+		box-shadow:4px 4px 8px #c2c2c2;
+	}
+	.usluge-circle{
+		width:96px;
+		height:70px;
+		border-radius:72px;
+		padding-top:26px;
+		font-size:36px;
+		border:2px solid #ff7e38;
+	}
+	.usluge-txt{
+		width:160px;
+		height:160px;
+	}
+	.usluge-txt h2{
+		margin-top:16px;
+		font-size:15px;
+	}
+	.usluge-txt p{
+		padding-top:16px;
+		font-size:13px;
+	}
+
+}
+@media screen and (max-width:530px){
+	#main-naslov{
+		width:350px;
+	}
+	.naslov-text{
+		font-size:30px;
+	}
+	.naslov-ispod{
+		margin-top:30px;
+		width:150px;
+		height:40px;
+	}
+	.naslov-ispod button{
+		width:165px;
+		height:50px;
+		font-size:16px;
+	}
+	#main-gore{
+		height:440px;
+	}
+	#main-naslov{
+		margin-left:30px;
+	}
+	.usluge-naslov{
+		font-size:30px;
+	}
+	.levo-dug{
+		left:6px;
+	}
+	.desno-dug{
+		right:6px;
+	}
+	.proj-naslov{
+		margin:40px auto;
+		font-size:27px;
+	}
+	.proj-naslov hr{
+		width:40px;
+		height:3px;
+		margin-top:4px;
+	}
+}
+
+@media screen and (max-width:500px){
+	footer{
+		height:1180px;
+		padding-bottom:60px;
+	}
+	.logof{
+		width:195px;
+		height:62px;
+	}
+	.logof img{
+		height:55px;
+	}
+	.footer-div{
+		width:255px;
+		height:328px;
+		margin-top:16px;
+		margin-left:20px;
+	}
+	.ispod-logoa{
+		margin-top:25px;
+		font-size:14px;
+	}
+	#socijalne{
+		margin-top:25px;
+		font-size:26px;
+	}
+	#socijalne span{
+		margin-right:8px;
+	}
+	.fot-tel{
+		margin-top:16px;
+		margin-bottom:8px;
+	}
+	.footer-naslov{
+		height:49px;
+		padding-top:16px;
+		font-size:27px;
+	}
+	.stranice ul{
+		margin-top:25px;
+	}
+	.stranice ul li{
+		margin-top:8px;
+	}
+	.footer-sec{
+		height:340px;
+		margin-top:16px;
+		margin-left:20px;
+	}
+	#footer-table{
+		height:340px;
+	}
+	#footer-table input{
+		height:35px;
+		padding-left:3px;
+		font-size:14px;
+	}
+	#footer-table textarea{
+		height:139px;
+		max-height:164px;
+		padding-left:3px;
+		font-size:14px;
+	}
+	.footer-dugme{
+		width:82px;
+		height:35px;
+		border-radius:3px;
+		margin-top:8px;
+		letter-spacing:1.1px;
+	}
+	.fut-nav{
+		height:250px;
+	}
+	.sekc-usluga{
+		height:800px;
+	}
+	.sveusluge h1{
+		font-size:34px;
+		margin-bottom:20px;
+	}
+	.sveusluge p{
+		font-size:17px;
+	}
+	.slika-ugluga{
+		height:300px;
+	}
+	.sekc-usluga{
+		height:750px;
+	}
+	.su2{
+		overflow:hidden;
+		background-position:right;
+		background-size: 500px 300px;
+		margin-top:20px;
+	}
+	#tekst-usluga1, #tekst-usluga3,	#tekst-usluga2, #tekst-usluga4{
+	height:auto;
+	}
+	.areasm{
+		height:150px;
+	}
+	.sekcija-opis{
+		height:250px;
+	}
+	.sekcija-budzet{
+		margin-top:0px;
+	}
+	.sekcija-privatni{
+		margin-top:20px;
+		height:250px;
+	}
+	.sekcija-privatni .article-input{
+		margin-top:0px;
+	}
+	.inputi{
+		height:40px;
+	}
+	.usluge-procena{
+		margin-top:40px;
+	}
+
+}
+@media screen and (max-width:450px){
+	#O-nama{
+		height:850px;
+	}
+	.nama-text{
+		width:350px;
+		height:310px;
+		margin-left:20px;
+	}
+	.nama-text h1{
+		font-size:30px;
+	}
+	.nama-text p{
+		margin-top:20px;
+		font-size:16px;
+	}
+	#namaslike{
+		width:360px;
+	}
+	#nama-slika1{
+		width:225px;
+		height:225px;
+	}
+	#nama-slika2{
+		width:175px;
+		height:175px;
+		left:120px;
+	}
+	.inputi, .tekst-areas{
+		font-size:14px;
+	}
+
+	#lista-sajtova{
+		height:350px;
+		width:320px;
+	}
+	.dugme-preview{
+		width:144px;
+		height:144px;
+		box-shadow:4px 4px 12px #c2c2c2;
+		border-radius:4px;
+		border:1.4px solid white;
+	}
+	.dugme-preview img{
+		border-radius:4px;
+	}
+	.sajt-izaberi{
+		width:144px;
+		height:144px;
+		font-size:24px;
+		border-radius:4px;
+	}
+	.pored-telefon h1{
+		font-size:35px;
+	}
+	.pored-telefon p{
+		font-size:16px;
+		margin-top:30px;
+	}
+}
+@media screen and (max-width:440px){
+	#main-naslov{
+		width:300px
+	}
+	.usluge-procena{
+		height:450px;
+	}
+	.naslov-ispod{
+		margin-top:50px;
+	}
+	.procena-ispod{
+		width:320px;
+	}
+	.svako-pitanje{
+
+		margin-left:20px;
+		margin-bottom:30px;
+	}
+.procena-blok{
+	width:140px;
+	height:140px;
+	border-radius:6px;
+	box-shadow:3px 3px 12px #e2e2e2;
+}
+.procena-blok p{
+	margin-top:12px;
+	font-size:12px;
+}
+.procena-circle{
+	width:73px;
+	height:53px;
+	border-radius:55px;
+	padding-top:20px;
+	font-size:27px;
+	border:2px solid gray;
+	margin-top:12px;
+}
+
+.procena-box{
+	top:6px;
+	right:24px;
+}
+
+.container {
+  font-size: 13px;
+  width:140px;
+  height:140px;
+}
+.checkmark {
+  top: 9px;
+  left: 119px;
+  width:12px;
+  height:12px;
+  border-radius:2px;
+}
+
+.container .checkmark:after {
+  left: 3.6px;
+  top: 1.8px;
+  width: 3px;
+  height: 6px;
+  border-width: 0 2px 2px 0;
+	}
+}
+@media screen and (max-width:430px){
+	#usluge-index{
+		height:1350px;
+	}
+	#usluge-sekcija{
+		width:70%;
+		height:1250px;
+		margin-top:60px;
+		display:flex;
+		margin-top:30px;
+	}
+	.usluge-blok{
+		width:100%;
+		box-shadow:none!important;
+	}
+	.usluge-txt{
+		width:90%;
+		height:160px;
+		margin:auto;
+	}
+	.usluge-txt h2{
+		font-size:20px;
+	}
+	.usluge-txt p{
+		font-size:15px;
+	}
+	.usluge-blok:hover{
+		-ms-transform: scale(1); /* IE 9 */
+		-webkit-transform: scale(1); /* Safari 3-8 */
+		transform: scale(1);
+	}
+
+}
+@media screen and (max-width:420px){
+	.info-procedura{
+		width:320px;
+		height:60px;
+		font-size:13px;
+	}
+	.pored-laptop h1{
+		font-size:32px;
+	}
+	.pored-laptop p{
+		font-size:16px;
+	}
+	#laptop-selektor{
+		margin-top:100px;
+	}
+}
+@media screen and (max-width:400px){
+	#main-naslov{
+		width:270px;
+	}
+	.container1{
+		width:1628px;
+	}
+}
+@media screen and (max-width:390px){
+	#main-naslov{
+		width:260px;
+	}
+}
+@media screen and (max-width:380px){
+	#O-nama{
+		height:750px;
+	}
+	.nama-text{
+		width:280px;
+		height:310px;
+	}
+	.nama-text h1{
+		font-size:27px;
+	}
+	.nama-text p{
+		margin-top:20px;
+		font-size:15px;
+	}
+	#namaslike{
+		width:315px;
+	}
+	#nama-slika1{
+		width:193px;
+		height:193px;
+	}
+	#nama-slika2{
+		width:148px;
+		height:148px;
+		left:110px;
+		top:100px;
+	}
+}
+@media screen and (max-width:370px){
+	.logo{
+		width:205px;
+		height:65px;
+	}
+	.logo img{
+		height:65px;
+	}
+}
+@media screen and (max-width:350px){
+	.logo{
+		width:195px;
+		height:62px;
+	}
+	.logo img{
+		height:62px;
+	}
+}
